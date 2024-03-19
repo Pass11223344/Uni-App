@@ -1,0 +1,104 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			
+			
+			"style": {
+				 "navigationStyle": "custom",
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+		    "path" : "pages/Loading/loading",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+				"transparentTitle": "always"
+		        
+		    }
+		    
+		}
+		,
+	
+		
+	
+		{
+            "path" : "pages/My/My",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+        
+       
+        {
+			"path": "pages/playerView/playerView",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/albumPage/albumPage",
+			"style" : 
+			{
+				"navigationStyle": "custom",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/city/city",
+			"style" : 
+			{
+				"navigationStyle": "custom",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/songslist/songslist",
+			"style" : 
+			{
+				"navigationStyle": "custom",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/comments/comments",
+			"style" : 
+			{
+				"navigationStyle": "custom",
+				"enablePullDownRefresh" : false
+			}
+		}
+    ],
+	"tabBar": {
+		"selectedColor": "red",
+	"list": [
+		{"pagePath":"pages/index/index",
+		"iconPath": "static/sy.svg",
+		"selectedIconPath": "./static/syfb.svg",
+		"text": "首页"
+		},{
+			"pagePath":"pages/My/My",
+			"iconPath": "static/my.svg",
+			"selectedIconPath": "static/myfb.svg",
+			"text": "我的"
+		},{
+			"pagePath":"pages/city/city",
+			"iconPath": "./static/sq.svg",
+			"selectedIconPath": "static/sqfb.svg",
+			"text": "社区"
+		}
+	]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

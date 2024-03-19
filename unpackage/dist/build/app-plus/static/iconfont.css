@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4282345 */
+  /* Color fonts */
+  src: 
+     /*  url('/static/iconfont.ttf') format('woff2'),
+       url('/static/iconfont.ttf') format('woff'), */
+       url('/static/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-moreandroid:before {
+  content: "\e6a5";
+}
+
+.icon-share:before {
+  content: "\e6f3";
+}
+
+.icon-down:before {
+  content: "\e703";
+}
+
+.icon-bofang:before {
+  content: "\e624";
+}
+
+.icon-zanting:before {
+  content: "\e629";
+}
+
+.icon-outdent:before {
+  content: "\e7f3";
+}
+
+.icon-poweroff-circle-fill:before {
+  content: "\e847";
+}
+
+.icon-play-circle-fill:before {
+  content: "\e848";
+}
+
+.icon-step-backward:before {
+  content: "\e8ef";
+}
+
+.icon-step-forward:before {
+  content: "\e8f0";
+}
+
+.icon-refresh:before {
+  content: "\e6eb";
+}
+

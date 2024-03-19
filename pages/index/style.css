@@ -1,0 +1,93 @@
+.swiper {
+		padding-top: 10rpx;
+		align-self: center;
+		margin: 120rpx 10rpx 10rpx 10rpx;
+		width: 90%;
+		height: 256rpx;
+	}
+	.swiper_item {
+	
+		border-radius: 15rpx;
+		background-color: black;
+	}
+	.scroll {
+		margin-top: 8rpx;
+		width: 96%;
+		white-space: nowrap;
+		height: 300rpx;
+		margin-left: 3%;
+	
+	
+	}
+	
+	.scroll_item {
+		width: 240rpx;
+		height: 100%;
+		display: inline-block;
+		margin-left: 16rpx;
+	
+	
+	}
+	.scroll_itemT {
+		display: inline-block;
+		width: 95%;
+		height: 100%;
+		margin-left: 12rpx;
+	}
+	.songSheet {
+		width: 240rpx;
+		height: 76%;
+	}
+	
+	.songSheet_text {
+		font-size: 20rpx;
+	
+		overflow: hidden;
+		white-space: pre-wrap;
+		text-overflow: ellipsis;
+		width: 240rpx;
+		height: 24%;
+	}
+	
+	.sSheet_img {
+		border-radius: 20rpx;
+		width: 240rpx;
+		height: 100%;
+	}
+	
+	.sSheet_text {
+		width: 210rpx;
+		position: absolute;
+		z-index: 80;
+		color: gainsboro;
+		padding: 6px;
+		text-align: end;
+	}
+	.y_item{
+		
+		width: 100%;
+		height: 33.4%;
+		display: flex;
+		margin-top: 2px;
+		flex-direction: row;
+		 align-items: center;
+		
+	}
+	.y_item_img{
+		border-radius: 14rpx;
+		
+	}
+	.album{
+	background-color: black;
+	width: 65px;
+	height: 98%; 
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	}
+
+	::-webkit-scrollbar{
+	     width: 0!important;
+	     height: 0!important;
+	     display: none;
+	 }
