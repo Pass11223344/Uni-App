@@ -12,9 +12,9 @@
 			<view class="content">
 				<view class="album_img" :style="{backgroundImage:'url('+albumInfo.album.blurPicUrl+')'}">
 					<view style="display: flex;">
-						<view style="background-color: black; width: 130px;height: 120px; border-radius: 50% 50% 0% 0%;"></view>
+						<view v-if="isImageLoaded" style="background-color: black; width: 130px;height: 120px; border-radius: 50% 50% 0% 0%;"></view>
 						
-						<image style="position: absolute;border-radius: 10%;width: 130px;height: 120px;margin-top: 24px;" :src="albumInfo.album.blurPicUrl" ></image>
+						<image @load = "imageLoaded" style="position: absolute;border-radius: 10%;width: 130px;height: 120px;margin-top: 24px;" :src="albumInfo.album.blurPicUrl" ></image>
 					</view>
 					
 					<view class="text">
@@ -83,7 +83,8 @@
 				lastButtonId:"",
 				shili:'',
 				oldBack:"",
-				nowOrup:''
+				nowOrup:'',
+				isImageLoaded: false
 				 
 			}
 		},
@@ -102,6 +103,11 @@
 					}
 				})
 			},
+			imageLoaded(e) {
+			      // 当图片加载完成后，更新状态
+			      this.isImageLoaded = true;
+			      console.log('图片加载完成', e);
+			    },
 			//返回并携带参数
 			navigateBack(){
 				this.$router.push({
